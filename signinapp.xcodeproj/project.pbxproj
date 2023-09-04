@@ -17,6 +17,7 @@
 		CEABEA0D2AA5C8D9008E49FE /* signinappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABEA0C2AA5C8D9008E49FE /* signinappTests.swift */; };
 		CEABEA172AA5C8D9008E49FE /* signinappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABEA162AA5C8D9008E49FE /* signinappUITests.swift */; };
 		CEABEA192AA5C8D9008E49FE /* signinappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABEA182AA5C8D9008E49FE /* signinappUITestsLaunchTests.swift */; };
+		CEABEA262AA5CBC5008E49FE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABEA252AA5CBC5008E49FE /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CEABEA122AA5C8D9008E49FE /* signinappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = signinappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEABEA162AA5C8D9008E49FE /* signinappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinappUITests.swift; sourceTree = "<group>"; };
 		CEABEA182AA5C8D9008E49FE /* signinappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEABEA252AA5CBC5008E49FE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		CEABE9F12AA5C8D6008E49FE /* signinapp */ = {
 			isa = PBXGroup;
 			children = (
+				CEABEA252AA5CBC5008E49FE /* SecondViewController.swift */,
 				CEABE9F22AA5C8D7008E49FE /* AppDelegate.swift */,
 				CEABE9F42AA5C8D7008E49FE /* SceneDelegate.swift */,
 				CEABE9F62AA5C8D7008E49FE /* ViewController.swift */,
@@ -264,6 +267,7 @@
 				CEABE9F72AA5C8D7008E49FE /* ViewController.swift in Sources */,
 				CEABE9F32AA5C8D7008E49FE /* AppDelegate.swift in Sources */,
 				CEABE9F52AA5C8D7008E49FE /* SceneDelegate.swift in Sources */,
+				CEABEA262AA5CBC5008E49FE /* SecondViewController.swift in Sources */,
 				CEABE9FD2AA5C8D7008E49FE /* signinapp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
